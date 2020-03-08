@@ -9,6 +9,9 @@
 # Maggie      79        89        99        87           平均分
 #            总分       总分       总分       总分
 
+# 调用方式：
+# awk -f student.sh student.txt
+
 BEGIN{
     printf "%-10s%-10s%-10s%-10s%-10s%-10s\n", "name", "chinese", "math", "english", "physical", "average"
 }
